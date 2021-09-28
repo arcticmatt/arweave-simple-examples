@@ -1,0 +1,16 @@
+{
+  "name": "arweave-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "read": "node scripts/read.js",
+    "submitTx": "node scripts/submitTx.js",
+    "txStatus": "node scripts/txStatus.js"
+  },
+  "dependencies": {
+    "arweave": "^1.10.16",
+    "dotenv": "^10.0.0"
+  }
+}
