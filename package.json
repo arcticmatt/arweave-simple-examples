@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "read": "node scripts/read.js",
+    "readAccount": "node scripts/readAccount.js",
+    "readTx": "node scripts/readTx.js",
     "submitTx": "node scripts/submitTx.js",
     "txStatus": "node scripts/txStatus.js"
   },

@@ -6,11 +6,12 @@ In order to run this code, you need to generate a new Arweave wallet. Follow htt
 
 ## Running the code
 
-There are three scripts.
+There are four scripts.
 
-1. `yarn read`—this is a simple example of how to read basic data about your Arweave wallet.
-2. `yarn txStatus`—this gets the status of a single transaction. It can take a while for a transaction to be mined and confirmed. However, even while a transaction is still processing, you can read the data with `getData` or by going to `https://arweave.net/TX_ID`.
-3. `yarn submitTx`—the most involved example, shows how to submit a transaction and read the data back.
+1. `yarn readAccount`—this is a simple example of how to read basic data about your Arweave wallet.
+2. `yarn readTx`—reads the data of a transaction.
+3. `yarn txStatus`—this gets the status of a single transaction. It can take a while for a transaction to be mined and confirmed. However, even while a transaction is still processing, you can read the data with `getData` or by going to `https://arweave.net/TX_ID`.
+4. `yarn submitTx`—the most involved example, shows how to submit a transaction and read the data back.
 
 ## Misc
 

@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Reads and logs some basic data about the Arweave account
-async function read() {
+async function readAccount() {
   const key = JSON.parse(process.env.KEY);
 
   const address = await arweave.wallets.jwkToAddress(key);
@@ -13,4 +13,4 @@ async function read() {
   console.log("lastTransactionId", lastTransactionId);
 }
 
-read();
+readAccount();
