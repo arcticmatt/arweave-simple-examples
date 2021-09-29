@@ -1,5 +1,7 @@
 # A simple read/write Arweave example
 
+See https://pencilflip.medium.com/how-to-use-arweave-to-store-and-access-nft-metadata-823552293f62 for a more in-depth walkthrough.
+
 ## Setup
 
 In order to run this code, you need to generate a new Arweave wallet. Follow https://docs.arweave.org/info/wallets/arweave-web-extension-wallet#new-users-generating-your-wallet in order to do this. Once you do it, create a `.env` file and set `KEY=YOUR_KEY`.
