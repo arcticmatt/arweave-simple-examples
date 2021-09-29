@@ -5,13 +5,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "arbundles": "node scripts/arbundles.js",
     "readAccount": "node scripts/readAccount.js",
     "readTx": "node scripts/readTx.js",
     "submitTx": "node scripts/submitTx.js",
     "txStatus": "node scripts/txStatus.js"
   },
   "dependencies": {
+    "arbundles": "^0.2.7",
     "arweave": "^1.10.16",
+    "axios": "^0.21.4",
     "dotenv": "^10.0.0"
   }
 }

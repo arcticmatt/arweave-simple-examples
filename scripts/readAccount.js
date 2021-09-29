@@ -2,7 +2,9 @@ import arweave from "../src/arweave.js";
 import dotenv from "dotenv";
 dotenv.config();
 
-// Reads and logs some basic data about the Arweave account
+/**
+ * Reads and logs some basic data about the Arweave account
+ */
 async function readAccount() {
   const key = JSON.parse(process.env.KEY);
 

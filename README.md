@@ -1,4 +1,4 @@
-# A simple read/write Arweave example
+# Simple examples that show how to use Arweave
 
 See https://pencilflip.medium.com/how-to-use-arweave-to-store-and-access-nft-metadata-823552293f62 for a more in-depth walkthrough.
 
@@ -8,12 +8,13 @@ In order to run this code, you need to generate a new Arweave wallet. Follow htt
 
 ## Running the code
 
-There are four scripts.
+There are five scripts.
 
 1. `yarn readAccount`—this is a simple example of how to read basic data about your Arweave wallet.
-2. `yarn readTx`—reads the data of a transaction.
-3. `yarn txStatus`—this gets the status of a single transaction. It can take a while for a transaction to be mined and confirmed. However, even while a transaction is still processing, you can read the data with `getData` or by going to `https://arweave.net/TX_ID`.
-4. `yarn submitTx`—the most involved example, shows how to submit a transaction and read the data back.
+2. `yarn readTx TX_ID`—reads the data of a transaction.
+3. `yarn txStatus TX_ID`—this gets the status of a single transaction.
+4. `yarn submitTx`—shows how to submit a transaction using `arweave.transactions.post` and read the data back.
+5. `yarn arbundles`—shows how to submit a transaction using `arbundles` (which is more robust than `arweave.transactions.post`) and read the data back.
 
 ## Misc
 
